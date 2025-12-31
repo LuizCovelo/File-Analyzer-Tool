@@ -1,0 +1,246 @@
+Atue como um desenvolvedor full stack sênior, especialista em:
+
+Google Maps / Places API
+
+Prospecção comercial automatizada
+
+Geração de leads B2B
+
+Integração com Google Sheets
+
+UX/UI profissional
+
+Performance, segurança e boas práticas
+
+🧠 OBJETIVO DO PROJETO
+
+Desenvolver um site profissional de captura de leads comerciais, utilizando a API do Google Maps / Places API, com o OBJETIVO EXCLUSIVO de encontrar EMPRESAS QUE NÃO POSSUEM SITE, mas que TENHAM TELEFONE OU WHATSAPP, para fins de prospecção comercial e criação de sites.
+
+O sistema deve permitir busca avançada por região, aplicar filtros estratégicos, limitar a quantidade exata de resultados e exportar automaticamente os dados para o Google Sheets.
+
+🚫 REGRA PRINCIPAL (OBRIGATÓRIA)
+
+❗ NUNCA RETORNAR EMPRESAS QUE POSSUAM SITE
+
+Qualquer empresa que contenha:
+
+Campo website
+
+URL externa
+
+Link próprio
+➡️ DEVE SER AUTOMATICAMENTE DESCARTADA
+
+O sistema deve validar isso antes de salvar ou exibir o lead.
+
+🔎 BUSCA AVANÇADA NO GOOGLE MAPS
+
+O sistema deve permitir:
+
+📍 REGIÃO
+
+Seleção por:
+
+País
+
+Estado
+
+Cidade
+
+Bairro
+
+Raio de busca (KM)
+
+Mapa interativo para visualização
+
+🏷️ FILTROS DE EMPRESA
+
+Segmento / categoria (ex: mecânica, pizzaria, petshop, salão, loja, clínica etc.)
+
+Pequenas empresas
+
+Médias empresas
+
+Empresas com baixa presença digital
+
+Empresas recém-criadas (quando possível via dados públicos)
+
+🔢 CONTROLE DE QUANTIDADE DE RESULTADOS
+
+Adicionar opção obrigatória para o usuário escolher quantos leads deseja gerar por busca:
+
+⭕ 10 empresas
+
+⭕ 20 empresas
+
+⭕ 30 empresas
+
+⭕ 40 empresas
+
+⭕ 50 empresas
+
+O sistema deve:
+
+Parar automaticamente ao atingir a quantidade selecionada
+
+Exibir contador em tempo real
+
+Não exceder o limite escolhido
+
+📞 FILTRO DE QUALIDADE (OBRIGATÓRIO)
+
+Somente retornar empresas que possuam PELO MENOS UM dos seguintes dados:
+
+Número de telefone válido
+
+WhatsApp identificado (número móvel, wa.me, ou padrão BR)
+
+Empresas sem telefone DEVEM SER IGNORADAS.
+
+📊 DADOS QUE DEVEM SER COLETADOS
+
+Para cada empresa válida:
+
+Nome da empresa
+
+Categoria / segmento
+
+Endereço completo
+
+Cidade / Estado
+
+Telefone
+
+WhatsApp (quando identificado)
+
+Horário de funcionamento
+
+Avaliação no Google
+
+Quantidade de avaliações
+
+Link do Google Maps
+
+Latitude e Longitude
+
+Imagens públicas do Google Maps (quando permitido)
+
+Data e hora da coleta
+
+⚠️ Campo SITE deve permanecer vazio ou inexistente, confirmando que a empresa não possui site.
+
+📤 EXPORTAÇÃO AUTOMÁTICA PARA GOOGLE SHEETS
+
+Integração direta com Google Sheets API
+
+Criar nova aba por busca ou inserir em aba existente
+
+Evitar duplicidade (comparar nome + telefone)
+
+Estrutura organizada e profissional
+
+Logs de erros e status de envio
+
+🖥️ INTERFACE DO SITE (UX/UI)
+
+Criar uma interface profissional e intuitiva, contendo:
+
+📊 DASHBOARD
+
+Formulário de busca avançada
+
+Seletor de quantidade (10 a 50 empresas)
+
+Filtros por região e segmento
+
+Botão Iniciar Busca
+
+Botão Parar Busca
+
+Contador de leads em tempo real
+
+📋 RESULTADOS
+
+Tabela com:
+
+Nome
+
+Telefone / WhatsApp
+
+Segmento
+
+Cidade
+
+Avaliação
+
+Paginação e filtros
+
+Design responsivo (desktop e mobile)
+
+🔐 SEGURANÇA E BOAS PRÁTICAS
+
+Chaves de API via variáveis de ambiente
+
+Rate limit para Google API
+
+Validação rigorosa dos dados
+
+Código limpo, comentado e organizado
+
+Estrutura preparada para escalar
+
+🧪 TECNOLOGIAS (SUGESTÃO)
+
+Frontend:
+
+HTML5
+
+CSS3 moderno
+
+JavaScript puro ou framework leve
+
+Backend:
+
+Node.js + Express
+
+APIs:
+
+Google Maps Places API
+
+Google Sheets API
+
+📘 README.md (OBRIGATÓRIO)
+
+Criar um README.md profissional, explicando:
+
+Objetivo do sistema
+
+Funcionalidades
+
+Requisitos técnicos
+
+Como criar e configurar a API do Google Maps
+
+Como configurar Google Sheets API
+
+Onde inserir as chaves no projeto
+
+Como rodar o projeto localmente
+
+Como fazer deploy
+
+Limitações e boas práticas de uso
+
+Estrutura de pastas
+
+Linguagem clara, direta e profissional.
+
+✅ RESULTADO FINAL ESPERADO
+
+Entregar um SITE PROFISSIONAL CAPTURADOR DE LEADS, focado exclusivamente em:
+
+✔ Empresas SEM site
+✔ Empresas com telefone ou WhatsApp
+✔ Controle exato da quantidade de leads
+✔ Exportação automática para Google Sheets
+✔ Pronto para uso comercial real
